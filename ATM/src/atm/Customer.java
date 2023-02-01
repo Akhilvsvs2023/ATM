@@ -7,7 +7,7 @@ public class Customer
 	public void cashDeposit(int depositAmount)
 	{
 		balance = balance + depositAmount;
-		System.out.println("*** Cash Deposited ***");
+		System.out.println("*** Cash Deposited ***");System.out.println();
 	}
 	public void cashWithdrawl(int withdrawlAmount)
 	{
